@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,500;1,700;1,800&display=swap');
+  
+.item {
+  background-color: black;
+  height: 120px;
+  width: 150px;
+
+
+}
+
+.owl-carousel-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.position-relative:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.fixed-image {
+  position: sticky;
+  top: 0;
+}
+
+.top-10 {
+  margin-top: 10px;
+}
