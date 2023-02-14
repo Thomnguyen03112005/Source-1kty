@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+    integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,500;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="index.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Nav Start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="index.html">Trang Chủ</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu mx-3" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Nav end-->
+  </div>
+  <p>
+
+  </p>
+  <!--Main news-->
+  <div class="container" style="margin-top: 80px; padding-top: 10px;">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card" style="border: none;">
+          <div class="mb-1" style="font-size: 13px;">
+            <a href="">technology</a>
+            <span class="px-1">/</span>
+            <span>13/2/2023</span>
+          </div>
+          <img
+            src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/14/photo-7-1676360020980546808344.jpeg"
+            class="card-img-top" width="300" height="300">
+          <div class="card-body">
+            <a href="trang1.html" style="text-decoration: none; font-weight: bold; color: black;">
+              <h5 class="card-title1"></h5>
+            </a>
+              <p class="card-text-1">Mới đây, nhân dịp Valentine, đội ngũ truyền thông của Di tích Nhà tù Hỏa Lò khiến cộng đồng mạng rần rần bởi loạt nội dung hài hước nhưng không kém phần tinh tế. Theo đó, dựa trên chuyện tình yêu của một cặp đôi vừa mới chia tay, admin fanpage đã lồng ghép khéo léo những yếu tố “thả thính”, những hoạt động thường ngày và không quên “nhắc khéo” về Di tích Hỏa Lò khiến nhiều người thích thú.
+
+
+                Khi một tình yêu đẹp bỗng tan vỡ...
+                 
+                <img src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/14/photo-9-16763600282471418711929.jpeg" width="100%">
+                
+                
+                Một người khóc hết nước mắt, một người thay đổi màu tóc
+                
+                
+                Cách để "cưa đổ" một cô gái là những câu thả thính ngọt như mía lùi
+                
+                Cách lồng ghép vừa hài hước, vừa tinh tế khiến nhiều người thích thú
+                
+                Những khoảnh khắc cặp đôi từng cùng nhau đi tham quan Di tích Nhà tù Hỏa Lò khiến cô gái xúc động
+                
+                "Mình quay lại nhé?" - câu hỏi nhanh gọn đi thẳng vấn đề
+                
+                Cách đáp trả cũng không thể ngắn gọn hơn
+                
+                
+                Sau tất cả, mình lại trở về với nhau
+                
+                Bức ảnh viral nhất album là đây!
+                Hiện tại, bài đăng đang trở nên viral trên MXH với lượt tương tác tăng chóng mặt. Nhiều người cho rằng cách làm của đội ngũ truyền thông vừa sáng tạo, thông minh lại hấp dẫn, dễ tiếp cận và thu hút đối tượng trẻ. Thậm chí, nhiều người không sinh sống tại Hà Nội cũng mong muốn có dịp nào đó thật sớm để có mặt tại Thủ đô để được tham quan di tích lịch sử này.
+                Khoảng hơn một năm trở lại đây, Di tích Nhà tù Hỏa Lò trở thành điểm đến "gây sốt" với giới trẻ. Bên cạnh những thay đổi bởi các tour tham quan hấp dẫn, điểm khiến người trẻ quan tâm đến Nhà tù Hỏa Lò nhiều hơn là nhờ cách làm truyền thông sáng tạo, hấp dẫn của đội ngũ admin fanpage.
+                Một số bình luận của cư dân mạng:
+                - “Làm nội dung đỉnh quá luôn, xem ảnh nào cũng cười chảy nước mắt. Hội cô đơn không lo buồn khi xem loạt ảnh này rồi”.
+                - “Tạo trend quá, xem thấy hấp dẫn mà chỉ muốn đi Hỏa Lò ngay lập tức”.
+                - “Chưa bao giờ làm mình thất vọng. Bùng nổ nhất ngày Valentine luôn”.
+                - “Cuối cùng tình yêu lớn nhất không phải tình yêu đôi lứa, mà tôi nhận ra mình yêu Di tích Nhà tù Hỏa Lò mất rồi”.
+                
+                </p>
+                <p>Nguồn: Di tích Nhà tù Hỏa Lò - Hoa Lo Prison Relic</p>
+          </div>
+        </div>
+      </div>
+          <div class="col-lg-4 pt-3 pt-lg-0">
+            <p></p>
+            <!-- Popular News Start -->
+            <div class="pb-3">
+              <div class="bg-light py-2 px-4 mb-3">
+                <h3 class="m-0">Tranding</h3>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="" class="card-img-top" style="width: 143px; height: 100px; object-fit: cover;">
+                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                  <div class="mb-1" style="font-size: 13px;">
+                    <a href="">technology</a>
+                    <span class="px-1">/</span>
+                    <span>13/2/2023</span>
+                  </div>
+                  <a class="h6 m-0" href="trang2.html">
+                    <p class="card-title1"></p>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/13/photo-1-1676286872234123252029.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                  <div class="mb-1" style="font-size: 13px;">
+                    <a href="">technology</a>
+                    <span class="px-1">/</span>
+                    <span>13/2/2023</span>
+                  </div>
+                  <a class="h6 m-0"href="">
+                    <p class="card-title1"></p>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/13/photo-1-16762677105731489783011.png" style="width: 100px; height: 100px; object-fit: cover;">
+                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                  <div class="mb-1" style="font-size: 13px;">
+                    <a href="">technology</a>
+                    <span class="px-1">/</span>
+                    <span>13/2/2023</span>
+                  </div>
+                  <a class="h6 m-0" href=""><p class="card-title1"></p></a>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/13/photo-1-16762476835082105484973.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                  <div class="mb-1" style="font-size: 13px;">
+                    <a href="">technology</a>
+                    <span class="px-1">/</span>
+                    <span>13/2/2023</span>
+                  </div>
+                  <a class="h6 m-0" href=""><p class="card-title1"></p></a>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/2/13/photo-7-1676283096220350526594.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                  <div class="mb-1" style="font-size: 13px;">
+                    <a href="">technology</a>
+                    <span class="px-1">/</span>
+                    <span>13/2/2023</span>
+                  </div>
+                  <a class="h6 m-0" href=""><p class="card-title1"></p></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Newsletter Start -->
+            <div class="fixed-image pb-3">
+              <img src="https://blog.freelancerviet.vn/wp-content/uploads/2019/03/nguyen_tac_thiet_ke_banner_27.jpg"
+                alt="">
+            </div>
+            </div>
+             <!-- Footer Start -->
+    <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5">
+              <a href="index.html" class="navbar-brand">
+                  <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">BÁO</span></h1>
+              </a>
+              <p>Các trang mạng xã hội của BÁO</p>
+              <div class="d-flex justify-content-start mt-4">
+                  <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h4 class="font-weight-bold mb-4">Thể Loại</h4>
+              <div class="d-flex flex-wrap m-n1">
+                  <a href="" class="btn btn-sm btn-outline-secondary m-1">Doanh Nghiệp</a>
+                  <a href="" class="btn btn-sm btn-outline-secondary m-1">Giải Trí</a>
+                  <a href="" class="btn btn-sm btn-outline-secondary m-1">Công Nghệ</a>
+                  <a href="" class="btn btn-sm btn-outline-secondary m-1">Thể Thao</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h4 class="font-weight-bold mb-4">Tags</h4>
+              <div class="d-flex flex-wrap m-n1">
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Doanh Nghiệp</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Giải Trí</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Công Nghệ</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Thể Thao</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h4 class="font-weight-bold mb-4">Quick Links</h4>
+              <div class="d-flex flex-column justify-content-start">
+                  <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>About</a>
+                  <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Advertise</a>
+                  <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Privacy & policy</a>
+                  <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Terms & conditions</a>
+                  <a class="text-secondary" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Contact</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid py-4 px-sm-3 px-md-5">
+      <p class="m-0 text-center">
+          &copy; <a class="font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. 
+    
+    
+    Designed by <a class="font-weight-bold" href="https://freewebsitecode.com">Free Website Code</a>
+      </p>
+  </div>
+  <!-- Footer End -->
+
+</body>
+
+</html>
